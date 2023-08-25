@@ -1,0 +1,96 @@
+.tableM {
+    width: 60vmax ;
+    border-collapse: collapse; 
+    border-spacing: 0;   
+    margin-top: 10px;
+  }
+  
+  .tableM th, .tableM td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableM th {
+    background-color: #a29a9a;
+  }
+  
+  .btn-ver {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn-ver:hover {
+    background-color: #0056b3;
+  }
+  
+  .tableC {
+    width: 70vmax;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .tableC th, .tableC td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableC th {
+    background-color: #f2f2f2;
+  }
+
+  .tableT {
+    width: 70%;
+    border-collapse: collapse; 
+    border-spacing: 0;   
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .tableT th, .tableT td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableT th {
+    background-color: #f2f2f2;
+  }
+
+  .tableX-container {
+    text-align: center;
+  }
+
+  .tableX {
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 10px;
+    margin-left: auto; /* Añade esto para centrar horizontalmente */
+    margin-right: auto; /* Añade esto para centrar horizontalmente */
+  }
+  
+  .tableX th, .tableX td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableX th {
+    background-color: #f2f2f2;
+  }
+
+  .tableC .expired-date {
+    color: red; /* Cambia el color del texto a rojo */
+
+  }
+
+  .tableMo .expired-date {
+    color: red; /* Cambia el color del texto a rojo */
+
+  }

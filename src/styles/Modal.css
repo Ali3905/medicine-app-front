@@ -1,0 +1,106 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Cambia "center" a "flex-start" para alinear el contenido en la parte superior */
+  min-height: 100vh;
+}
+
+
+  
+  .modal-container {
+    position: fixed;
+    top: 3;
+    bottom:3;
+    left: 20;
+    width: 70%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 249, 249, 0.972); /* Fondo oscuro semi-transparente para el modal */
+  }
+
+
+.modal-main {
+position:fixed;
+background: white;
+width: 80%;
+height: auto;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.display-block {
+display: block;
+}
+
+.display-none {
+display: none;
+}
+
+.vista-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modall-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-form {
+  width: 300px;
+  max-width: 80%; /* Limitando el ancho del formulario */
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%; /* Asegurando que los campos estén alineados */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Asegurando que los campos estén alineados */
+}
+
+.input-value {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Asegurando que los campos estén alineados */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%; /* Asegurando que los botones estén alineados */
+}
+
+
+

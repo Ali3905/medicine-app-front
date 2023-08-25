@@ -1,0 +1,46 @@
+.container {
+    width: 210px; /* Ancho del Navbar vertical */
+    background-color: #30d4f8;
+    border-right: 1px solid #ccc;
+    padding: 3px 0;
+    position: fixed; /* Fijar el Navbar en su lugar */
+    top: 0;
+    left: 0;
+    bottom: 0;
+  
+  }
+
+  .nav-link-style {
+    display: block; /* Mostrar enlaces como bloques para que ocupen todo el ancho del Navbar */
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #5176aa;
+    color: white;
+  }
+
+  .content {
+    margin-top: 40px; /* Ajusta según sea necesario */
+    padding-top: 40px; /* Opcionalmente, puedes usar padding en lugar de margin */
+  }
+  .active {
+    width: 180px;
+    background-color: #e6ebe9dd;
+    color: black;
+  }
+  .nav-link.active,
+  .nav-link.active:hover {
+    background-color: #5176aa;
+    color: black;
+  }
+  .dropdown-item:hover {
+    background-color: #5176aa;
+    color: black;
+  }
+  
+  
+ 

@@ -1,0 +1,25 @@
+
+export {Home} from './Home'
+export {Registro} from './Registro'
+export {Login} from './Login'
+export {Centros} from './Centros'
+export {SalidaM} from './SalidaM'
+export {AñadirMedicamento} from './AñadirMedicamento'
+export {Medicamentos} from './Medicamentos'
+export {EntradasM} from './EntradasM'
+export {Gasto} from './Gasto'
+export {Inventario} from './Inventario'
+export {DispenHdD} from './DispenHdD'
+export {HomeAdmin} from './HomeAdmin'
+export {InventarioHdD} from './InventarioHdD'
+export {SalidaPriv} from './SalidaPriv'
+export {InventarioPriv} from './InventarioPriv'
+export {EntradaPriv} from './EntradaPriv'
+export {ListaPriv} from './ListaPriv'
+export {BalanceteHdd} from './BalanceteHdd'
+export {BalanceteDep} from './BalanceteDep'
+export {BalancetePriv} from './BalancetePriv'
+export {StockHdd} from './StockHdd'
+
+
+
